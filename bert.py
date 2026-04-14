@@ -36,5 +36,5 @@ with tf.device('/job:localhost'):
     outfile.write('acceptable = ' + str(acceptable) + '\n')
     outfile.write('unacceptable = ' + str(unacceptable) + '\n')
     print([acceptable, unacceptable])
-    outfile.close() 
+    outfile.close()
     
