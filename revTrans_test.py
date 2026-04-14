@@ -13,4 +13,4 @@ tr = translator.translate(text, dest='ja').text
 print(tr + '\n')
 
 rev = translator.translate(tr, dest='en').text
-print(rev)
+print(rev) 

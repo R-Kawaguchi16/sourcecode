@@ -36,5 +36,5 @@ print(sentence + '\n')
 
 regex = re.compile(r'\[MASK\]')
 for result_word in result_words:
-    print(regex.sub(result_word, sentence))
+    print(regex.sub(result_word, sentence)) 
     
