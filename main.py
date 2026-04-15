@@ -5,7 +5,7 @@ from keras.optimizers import Adam
 import glob
 import argparse
 from PIL import Image
-import numpy as np
+import numpy as np 
 from keras.utils import np_utils
 from model.vgg16 import modelVGG16
 from plot_history import plot_history_acc, plot_history_loss

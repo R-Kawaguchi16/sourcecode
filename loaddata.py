@@ -1,6 +1,6 @@
 import numpy as np
 import glob 
-from PIL import Image
+from PIL import Image 
 from keras.utils import np_utils
 
 def loaddata(datadir,phase,sizeh, sizew,c):

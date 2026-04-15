@@ -12,7 +12,7 @@ def plot_history_loss(fit, modelname):
                 bbox_inches="tight", pad_inches=0.05)
     plt.savefig(modelname+'/loss.svg',
                 bbox_inches="tight", pad_inches=0.05)
-    plt.close()
+    plt.close() 
 
 def plot_history_acc(fit, modelname):
     plt.plot(fit.history['accuracy'],label="accuracy for training")
